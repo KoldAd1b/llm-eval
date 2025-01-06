@@ -51,7 +51,7 @@ const ExperimentSection = (props: Props) => {
           <ExperimentCard
             id="234324234"
             onDelete={() => {}}
-            systemPrompt="HELL NAH"
+            systemPrompt="You are an engineer working on a new project. You have been asked to design a new product. Generate a kanban board for the project."
           />
         </div>
       </div>

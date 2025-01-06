@@ -48,7 +48,25 @@ const Dashboard = (props: Props) => {
             <ExperimentRunCard
               experimentName="Yes"
               testCaseResults={[
-                { id: "123232131", name: "No", score: 0.5, passed: true },
+                { id: "123232131", name: "Accuracy", score: 0.5, passed: true },
+                {
+                  id: "12323213112312",
+                  name: "Relevance",
+                  score: 0.5,
+                  passed: true,
+                },
+                {
+                  id: "12432",
+                  name: "Contextual Precision",
+                  score: 0.5,
+                  passed: true,
+                },
+                {
+                  id: "3123213",
+                  name: "Contextual Recall",
+                  score: 0.5,
+                  passed: true,
+                },
               ]}
             />
           </div>

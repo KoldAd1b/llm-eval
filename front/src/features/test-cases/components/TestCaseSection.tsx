@@ -42,7 +42,15 @@ const TestCaseSection = (props: Props) => {
             <p className="text-gray-300">No test cases available</p>
           </div>
         </div>
-        <TestCaseCard id="3423432423" name="Babymonster" onDelete={() => {}} />
+        <div className="flex gap-4">
+          <TestCaseCard id="3423432423" name="Accuracy" onDelete={() => {}} />
+          <TestCaseCard id="3423432423" name="Relevance" onDelete={() => {}} />
+          <TestCaseCard
+            id="3423432423"
+            name="Custom Counter"
+            onDelete={() => {}}
+          />
+        </div>
       </div>
     </>
   );

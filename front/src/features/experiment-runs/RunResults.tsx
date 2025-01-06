@@ -42,7 +42,7 @@ export default function ExperimentRunCard({
             <p className="text-2xl font-bold">{averageScore.toFixed(2)}</p>
           </div>
           <div>
-            <p className="text-sm font-medium mb-2">
+            <p className="text-sm font-bold mb-2 ">
               Individual Test Case Results
             </p>
             <ul className="space-y-2">
